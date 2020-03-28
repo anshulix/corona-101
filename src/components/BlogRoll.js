@@ -31,24 +31,20 @@ class BlogRoll extends React.Component {
                   ) : null}
                   <p className="post-meta">
                     <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
+                      className="title is-size-4"
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
+                 
                   </p>
                 </header>
                 <p>
                   {post.excerpt}
                   <br />
                   <br />
-                  <Link className="button" to={post.fields.slug}>
+                  <a className="button" target='_blank' href='https://covid-at-home.info/'>
                     Keep Reading →
-                  </Link>
+                  </a>
                 </p>
               </article>
             </div>

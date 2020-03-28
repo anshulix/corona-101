@@ -10,6 +10,7 @@ mainpitch:
     Corona is an Invisible Tsunami that is impacting everyone around us in health & wealth. The government is too far away to help effectively on the ground, so we need to take care of ourselves & our near & dear.
 description: >-
   If each of us acts as a small tribe we will be much more powerful together, than if we try to act alone. As an entrepreneur & leader, if I can ensure that I organise 101 people around me, to make sure they are safe in the time of Corona. We need ten million Corona-101 tribes which together take care of a billion people.
+
 intro:
   blurbs:
     - image: /img/coffee.png

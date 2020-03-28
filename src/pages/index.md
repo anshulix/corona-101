@@ -1,21 +1,15 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Corona-101 Tribes 
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Corona-101 tribes 
+subheading: Win against the Invisible Tsunami
 mainpitch:
-  title: Why Kaldi
+  title: Why do we need Corona-101 tribes
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Corona is an Invisible Tsunami that is impacting everyone around us in health & wealth. The government is too far away to help effectively on the ground, so we need to take care of ourselves & our near & dear.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  If each of us acts as a small tribe we will be much more powerful together, than if we try to act alone. As an entrepreneur & leader, if I can ensure that I organise 101 people around me, to make sure they are safe in the time of Corona. We need ten million Corona-101 tribes which together take care of a billion people.
 intro:
   blurbs:
     - image: /img/coffee.png

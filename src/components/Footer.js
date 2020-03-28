@@ -72,7 +72,7 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div> */}
-              <div className="column is-3 is-offset-4 social"
+              <div className="column is-4 is-offset-4 social"
                 style={{
                     lineHeight: '1',
                     justifyContent: 'space-around',

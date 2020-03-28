@@ -19,7 +19,7 @@ class BlogRoll extends React.Component {
                 }`}
               >
                 <header>
-                  {post.frontmatter.featuredimage ? (
+                  {/* {post.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
                       <PreviewCompatibleImage
                         imageInfo={{
@@ -28,13 +28,13 @@ class BlogRoll extends React.Component {
                         }}
                       />
                     </div>
-                  ) : null}
+                  ) : null} */}
                   <p className="post-meta">
-                    <Link
+                    <h2
                       className="title is-size-4"
                     >
                       {post.frontmatter.title}
-                    </Link>
+                    </h2>
                  
                   </p>
                 </header>
@@ -42,7 +42,7 @@ class BlogRoll extends React.Component {
                   {post.excerpt}
                   <br />
                   <br />
-                  <a className="button" target='_blank' href='https://covid-at-home.info/'>
+                  <a className="button" href={post.frontmatter.url}>
                     Keep Reading →
                   </a>
                 </p>
@@ -67,7 +67,6 @@ export default () => (
     query={graphql`
       query BlogRollQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
         ) {
           edges {
@@ -80,15 +79,8 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                date(formatString: "MMMM DD, YYYY")
                 featuredpost
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
+                url
               }
             }
           }
